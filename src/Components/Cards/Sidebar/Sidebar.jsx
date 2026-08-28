@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-
+import './Sidebar.css'
 export default function Sidebar() {
-  const [abierto, setAbierto] = useState(true);
+  const [abierto, setAbierto] = useState(false);
     return (
       <div className="d-flex">
       <button
