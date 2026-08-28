@@ -1,8 +1,13 @@
 .sidebar{
     background-color: #14294F;
+    position: absolute;
+    top: 46px;
 }
 .btn{
     background-color: #14294F;
-}
 
+}
+.d-flex{
+    
+}
 

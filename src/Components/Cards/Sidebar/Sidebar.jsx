@@ -4,10 +4,7 @@ export default function Sidebar() {
   const [abierto, setAbierto] = useState(false);
     return (
       <div className="d-flex">
-      <button
-        className="btn btn-dark m-2"
-        onClick={() => setAbierto(!abierto)}
-      >
+      <button className="btn btn-dark m-2" onClick={() => setAbierto(!abierto)} style={{ position: abierto ? 'fixed' : 'relative' }}>
         ☰
       </button>
 
