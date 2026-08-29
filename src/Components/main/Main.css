@@ -1,20 +1,78 @@
-.accesos {
-    display : flex;
-    gap : 20px;
+.bloques-superiores {
+    display: flex;
+    gap: 16px;
+    width: 100%;
 }
+
+.bloque {
+    background-color: white;
+    border: 1px solid #dfe3e8;
+    border-radius: 7px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.cliente{
+    width: 50%;
+}
+.comprobante{
+    width: 50%;
+}
+
+.fila {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 13px;
+}
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.accesos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-bottom: 48px;
+
+}
+
 
 .card {
-    width: 250px;
-    min-height: 100px;
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-
-    background-color: rgb(115, 93, 241);
+    position: relative;
+    background-color: #F9F6F0;
+    border-radius: 10px 10px 0 0;
+    padding: 20px 18px 26px;
+    cursor: pointer;
+    transition: transform .15s ease, box-shadow .15s ease;
+    box-shadow: 4px 4px 0 #1E2A22;
 }
 
+.card-text {
+    position: middle;
+    bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #041008;
+}
 .paneles {
     display: flex;
     gap: 300px;
 }
 
+.tabla-ventas{
+    width: 110%;
+}
+.ventanas {
+    display: flex;
+    gap: 100px;
+}
+.main {
+    background-color: #F4F5F7;
+}
+.Explicacion {
+    font-size: 20px;
+    width: 30%;
+    text-align: justify;
+}
