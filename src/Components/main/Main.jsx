@@ -36,6 +36,7 @@ export default function Main() {
                 </div>
 
             </div>
+            
             <div className="paneles">
 
                 <section className="cuadros">
