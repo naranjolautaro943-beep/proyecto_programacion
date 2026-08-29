@@ -1,0 +1,20 @@
+.accesos {
+    display : flex;
+    gap : 20px;
+}
+
+.card {
+    width: 250px;
+    min-height: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+
+    background-color: rgb(115, 93, 241);
+}
+
+.paneles {
+    display: flex;
+    gap: 300px;
+}
+
