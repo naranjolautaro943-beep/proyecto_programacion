@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Header.css'
 export default function Header() {
     return (
         <div>
@@ -9,10 +9,10 @@ export default function Header() {
         <span className="fs-4 fw-bold text-white">📦 GestiónKiosco</span>
     </div>
 
-    <div id="fecha" className="text-white text-capitalize" style="font-size: 14px;">
+    <div id="fecha" className="text-white text-capitalize" style={{ fontSize: '14px' }}>
     </div>
 
-    <div className="flex-grow-1 mx-4" style="max-width: 300px;">
+    <div className="flex-grow-1 mx-4" style={{ maxWidth: '300px' }}>
         <input type="text" className="form-control" placeholder="Buscar producto, proveedor u orden..."/>
     </div>
 
