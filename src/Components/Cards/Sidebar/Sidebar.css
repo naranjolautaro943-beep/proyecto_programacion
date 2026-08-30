@@ -1,14 +1,19 @@
-.sidebar{
-
-    background-color: #14294F;
+.titulo-sidebar{
+    color: white;
     position: absolute;
-    top: 46px;
+    top: 30px;
+    left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
 }
-.btn{
-    background-color: #14294F;
 
-}
 .d-flex{
-    position: fixed;
+    background-color: black;
 }
-
+.text-navbar{
+    text-align: center;
+}
+.nav{
+    margin-top: 50px;
+    gap: 10px;
+}
