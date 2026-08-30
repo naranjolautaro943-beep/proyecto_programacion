@@ -14,7 +14,7 @@ export default function Sidebar({ abierto, setAbierto }) {
         <div className="d-flex flex-column  p-3 sidebar" style={{ position:'fixed',top:0,left:0,width:anchoSidebar, height:'100vh',transform:abierto? 'translateX(0)' : 'translateX(-100%)', transition:'transform 0.3s ease-in-out', }}>
           <a className="text-navbar">
             <img src=''/>
-            <span className="titulo-sidebar">Sidebar</span>
+            <span className="titulo-sidebar">Sistema de Control</span>
           </a>
           <hr />
           <ul className="nav nav-pills flex-column ">
