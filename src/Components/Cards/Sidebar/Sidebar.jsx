@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+
 import './Sidebar.css'
-export default function Sidebar() {
-  const [abierto, setAbierto] = useState(false);
+export default function Sidebar({ abierto, setAbierto }) {
+  
   const anchoSidebar = 280;
     return (
       <div className="d-flex">
-      <button className="btn btn-dark m-2" onClick={() => setAbierto(!abierto)} style={{ position: 'relative' ,top:12, left:12, zIndex:1050 }}>
+      <button className="btn btn-dark m-2" onClick={() => setAbierto(!abierto)} style={{ position: 'fixed' ,top:12, left:12, zIndex:1050 }}>
         ☰
       </button>
 
