@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Sidebar/>
+    <Sidebar abierto={abierto} setAbierto={setAbierto}/>
     <Main  abierto={abierto} />
     <Footer/>
     </>

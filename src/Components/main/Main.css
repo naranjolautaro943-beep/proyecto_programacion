@@ -76,3 +76,14 @@
     width: 30%;
     text-align: justify;
 }
+.main-wrapper {
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.main-wrapper.abierto {
+  margin-left: 280px;
+}
+
+.main-wrapper.cerrado {
+  margin-left: 0;
+}
