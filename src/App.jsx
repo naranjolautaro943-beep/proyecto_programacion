@@ -10,7 +10,7 @@ function App() {
     <>
     <Navbar/>
     <Sidebar/>
-    <Main/>
+    <Main  abierto={abierto} />
     <Footer/>
     </>
 

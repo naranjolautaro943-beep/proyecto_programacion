@@ -1,8 +1,8 @@
 import React from 'react'
 import './Main.css'
-export default function Main() {
+export default function Main({abierto}) {
     return (
-    <div>
+    <div className={abierto ? 'main-wrapper abierto' : 'main-wrapper cerrado'}>
 
         <main className="main">
         <div className="container">  
