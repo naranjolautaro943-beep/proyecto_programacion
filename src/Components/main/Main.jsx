@@ -117,11 +117,11 @@ export default function Main({abierto}) {
 
 
             <div className="ventanas">
-                    <div class="table-responsive small tabla-ventas">
+                    <div className="table-responsive small tabla-ventas">
                             <section className="cuadros">
                                 <h2>Ventas recientes</h2>
                             </section>
-                    <table class="table table-striped table-sm">
+                    <table className="table table-striped table-sm">
                         <thead>
                             <tr>
                                 <th scope="col">CODIGO</th>

@@ -2,13 +2,18 @@ import React from 'react'
 import './Header.css'
 export default function Header() {
     return (
-        <Header class="header bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-            
-                </a>
-            </div>
-    </Header>
+            <header className="header">
+      
+        <div className='header-titulo'>
+            <h1>Kiosco Azul</h1>
+        </div>
+      
+
+      <div className="header-lado header-derecha">
+        <span className="header-fecha">31 de Agosto , 2026</span>
+      </div>
+    </header>
+        
         
     )
 }

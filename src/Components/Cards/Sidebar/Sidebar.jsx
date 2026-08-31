@@ -5,7 +5,7 @@ export default function Sidebar({ abierto, setAbierto }) {
   const anchoSidebar = 280;
     return (
       <div className="d-flex">
-        <div boton-opciones>
+        <div className='boton-opciones'>
           <button className="btn btn-dark m-2" onClick={() => setAbierto(!abierto)} style={{ position: 'fixed' ,top:12, left:12, zIndex:1050 }}>
             ☰
           </button>
@@ -13,7 +13,7 @@ export default function Sidebar({ abierto, setAbierto }) {
       {abierto && (
         <div className="d-flex flex-column  p-3 sidebar" style={{ position:'fixed',top:0,left:0,width:anchoSidebar, height:'100vh',transform:abierto? 'translateX(0)' : 'translateX(-100%)', transition:'transform 0.3s ease-in-out', }}>
           <a className="text-navbar">
-            <img src=''/>
+            
             <span className="titulo-sidebar">Sistema de Control</span>
           </a>
           <hr />
@@ -62,16 +62,6 @@ export default function Sidebar({ abierto, setAbierto }) {
             </li>
           </ul>
           <hr />
-          <div className="dropdown">
-          
-            <ul className="dropdown-menu dropdown-menu-dark text-small shadow">
-              <li><a className="dropdown-item" href="#">New project...</a></li>
-              <li><a className="dropdown-item" href="#">Settings</a></li>
-              <li><a className="dropdown-item" href="#">Profile</a></li>
-              <li><hr className="dropdown-divider" /></li>
-              <li><a className="dropdown-item" href="#">Sign out</a></li>
-            </ul>
-          </div>
         </div>
       )}
 
