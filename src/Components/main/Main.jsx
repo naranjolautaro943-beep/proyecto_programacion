@@ -28,7 +28,7 @@ export default function Main({abierto}) {
                             <label>Nombre / Razón social</label>
                             <input
                                 type="text"
-                                defaultValue="CONSUMIDOR FINAL"
+                                defaultValue="Cliente de prueba"
                             />
                         </div>
 
@@ -113,6 +113,30 @@ export default function Main({abierto}) {
                 </section>
 
             </div>
+            <section className="cargar-producto">
+
+                <h2>Producto</h2>
+                <p>Este bloque permite agregar productos a la venta por su código</p>
+
+                <div className="barra-producto">
+
+                    <input
+                        type="text"
+                        placeholder="⌕  Código de barras del producto"
+                    />
+
+                    <input
+                        type="number"
+                        defaultValue="1"
+                    />
+
+                    <button>
+                        Agregar
+                    </button>
+
+                </div>
+
+            </section>
 
 
 
@@ -185,6 +209,48 @@ export default function Main({abierto}) {
                     </table>
                     </div>
                 </div>
+
+    <div className="totales">
+
+        <p>
+        Este bloque muestra los totales de la venta, aqui se mostrarán los cálculos finales.
+        </p>
+
+        <div className="fila-total">
+            <span>Subtotal</span>
+            <span>$0,00</span>
+        </div>
+
+        <div className="fila-total">
+            <span>Descuento %</span>
+
+            <input type="number" defaultValue="0"/>
+    </div>
+
+        <hr />
+
+        <div className="fila-total total">
+            <strong>Total</strong>
+            <strong>$0,00</strong>
+        </div>
+
+            </div>
+                <div className="botones-finales">
+
+                <button className="cancelar">
+                    Cancelar venta
+                </button>
+
+                <button className="generar">
+                    ▣ &nbsp; Generar comprobante (F9)
+                </button>
+
+        </div>
+
+
+
+
+
                 <br></br>
                 <h2>Información Rápida</h2>
 
